@@ -3,11 +3,8 @@
   "id": "nightvisiontoggle",
   "version": "${version}",
   "name": "Night Vision Toggle",
-  "description": "Press G to toggle Night Vision on the client.",
-  "authors": [
-    "Darkz"
-  ],
-  "contact": {},
+  "description": "Toggle night vision with G",
+  "authors": ["Darkz"],
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
@@ -16,9 +13,8 @@
     ]
   },
   "depends": {
-    "minecraft": "~1.21.1",
-    "java": ">=21",
     "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
     "fabric-api": "*"
   }
 }
